@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseno.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="navbar">
+        <input type="checkbox" id="chbxDarkmode">
+        <label for="chbxDarkmode">Modo oscuro</label>
+    </div>
+    <div class="box">
+        <h1>Calcular cilindros</h1>
+        <hr>
+        <div class="forms-area">
+            <label for="tbxLaminas">Cantidad laminas</label>
+            <br>
+            <input id="tbxLaminas" type="number" placeholder="Cantidad en numeros" class="tbx-active">
+            <br>
+            <label for="tbxPerimetro">Perimetro</label>
+            <br>
+            <input id="tbxPerimetro" type="number" placeholder="Perimetro en mts" class="tbx-active">
+            <br>
+            <label for="tbxDiametro">Diametro</label>
+            <br>
+            <input id="tbxDiametro" type="number" placeholder="Diametro en mts" class="tbx-active">
+            <br>
+            <label for="tbxRadio">Radio</label>
+            <br>
+            <input id="tbxRadio" type="number" placeholder="Radio en mts" class="tbx-active">
+            <br>
+            <label for="tbxVolumen">Volumen</label>
+            <br>
+            <input id="tbxVolumen" type="number" placeholder="Volumen en mts cubicos" class="tbx-active">
+            <br>
+            <button type="button" class="btn-active" onclick="elegirFuncion()">Calcular</button>
+            <br>
+            <button type="button" class="btn-warning" onclick="limpiar()">Limpiar campos</button>
+            <hr>
+            <br>
+            <h3>Donde los valores constantes son:</h3>
+            <br>
+            <input type="checkbox" id="chbxModificar">
+            <label for="chbxModificar">Modificar valores constantes</label>
+            <br>
+            <label>Altura (mts)</label>
+            <input type="text" placeholder="2.8" disabled class="tbx-disabled" id="tbxAlturaField">
+            <label>Medida lamina(mts)</label>
+            <input type="text" placeholder="2.8705" disabled class="tbx-disabled" id="tbxMedidaLamina">
+            <label>π</label>
+            <input type="text" placeholder="3.1415927" disabled class="tbx-disabled" id="tbxPi">
+        </div>
+    </div>
+    <script src="js/funcionalidad.js"></script>
+</body>
+</html>

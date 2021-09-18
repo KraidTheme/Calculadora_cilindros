@@ -1,0 +1,125 @@
+body{
+    background-color: rgba(46, 64, 83, 1);
+    color: rgba(26, 188, 156,1);
+    margin: 0%;
+}
+hr{
+    border: solid 0.1px rgba(0,0,0,1);
+    background-color:rgba(0,0,0,1);
+}
+.navbar{
+    background-color: rgba(28, 40, 51, 1);
+    width: auto;
+    margin: 0%;
+    text-align: right;
+    padding: 10px;
+}
+.box{
+    background-color: rgba(28, 40, 51, 1);
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.tbx-active{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 500px;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(28, 40, 51,1);
+    color: rgba(26, 188, 156,1);
+}
+.tbx-disabled{
+margin-top: 15px;
+margin-top: 50px;
+padding: 5px;
+text-align: center;
+}
+.btn-warning{
+    padding: 8px;
+    width: 500px;
+    border: none;
+    background-color:rgba(192, 57, 43,1);
+    color: rgba(229, 231, 233,0.8);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.btn-active{
+    padding: 8px;
+    width: 500px;
+    border: none;
+    background-color:rgba(36, 113, 163,1);
+    color: rgba(229, 231, 233,0.8);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media(max-width:710px){
+    .box{
+        background-color: rgba(28, 40, 51, 1);
+        padding: 1%;
+        margin-top: 0%;
+        text-align: center;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+    .btn-active{
+        padding: 8px;
+        width: 100%;
+        height: 50px;
+        border: none;
+        background-color:rgba(36, 113, 163,1);
+        color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .btn-warning{
+        padding: 8px;
+        width: 100%;
+        border: none;
+        background-color:rgba(231, 76, 60,1);
+        color: white;
+        border-radius: 5px;
+        height: 50px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+    .tbx-active{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .tbx-disabled{
+        margin-top: 15px;
+        margin-top: 50px;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
